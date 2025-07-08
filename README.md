@@ -1,39 +1,49 @@
 # Email Enricher
 
-This mini-project demonstrates how to automatically populate missing email addresses in a contact list using simple heuristics.
+Automatically fill in missing B2B contact emails using a handful of lightweight, **public-data** techniques – no paid look-up services required.
 
-## Project Structure
+Key features
+
+*   Caches company email patterns (e.g. *first.last* vs *flast*)
+*   Falls back to Google & LinkedIn scraping when patterns are unknown
+*   Handles vanity domains via a small alias table (e.g. `becn.com → beaconroofingsupply.com`)
+
+## Project Layout
 
 ```
 emails/
-├── environment.yml     # Conda environment definition
-├── sample_data.csv     # Example dataset containing missing emails
-├── email_enricher.py   # Main script that fills in empty emails
-└── README.md           # This file
+├── email_enricher.py   # Core enrichment logic
+├── environment.yml     # Conda environment (optional)
+├── sample_data.csv     # Example input
+└── ...                 # Test / helper CSVs
 ```
 
-## Setup
+## Quick setup
 
-1.  Create the Conda environment and activate it:
+```bash
+# Option A – Conda (recommended)
+conda env create -f environment.yml
+conda activate email_enricher
 
-    ```bash
-    conda env create -f environment.yml
-    conda activate email_enricher
-    ```
+# Option B – plain pip
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt   # generated from environment.yml
+```
 
-2.  (Optional) Install the environment with **mamba** for faster resolution:
+To boost pattern accuracy you may add a **free** Hunter.io key:
 
-    ```bash
-    mamba env create -f environment.yml
-    ```
+```bash
+export HUNTER_API_KEY=your_key_here
+```
 
-3.  (Optional) Set a Hunter.io API key for higher-confidence pattern discovery (free plan ⇒ 25 requests/month):
+## How it works
 
-    ```bash
-    export HUNTER_API_KEY=your_key_here
-    ```
-
-   Alternatively, create a `.env` file in the repo root with the same variable.
+1. **Domain normalisation** – extracts and cleans the company website, applying any hard-coded aliases.
+2. **Direct lookup** – searches Google & LinkedIn for an explicit email that contains the contact's last name.
+3. **Pattern discovery**
+   * Scrapes the company site (and a quick Google search) to collect samples and infer the dominant pattern.
+4. **Heuristic fallbacks** – tries a small set of common formats (`jdoe`, `john.doe`, `john@`, …).
+5. **Deduping** – ensures each generated email is unique within the dataset.
 
 ## Usage
 
@@ -81,7 +91,7 @@ df = pd.DataFrame({
 
 # 3. Compute a boolean "match" column and overall accuracy
 df['match'] = df['true_email'] == df['predicted_email']
-accuracy = df['match'].mean()  # fraction of True’s
+accuracy = df['match'].mean()  # fraction of True's
 
 print(f'Accuracy: {accuracy:.2%}')  # e.g. "Accuracy: 87.50%"
 
