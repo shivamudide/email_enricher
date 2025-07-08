@@ -1,0 +1,17 @@
+name: email_enricher
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - openpyxl
+  - requests
+  - beautifulsoup4
+  - tldextract
+  - python-dotenv
+  - dnspython
+  - pip
+  - pip:
+      - duckduckgo_search
+      - googlesearch-python

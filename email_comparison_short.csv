@@ -1,0 +1,17 @@
+true_email,predicted_email,match
+jasont@2jsupply.com,jtrimbach@2jsupply.com,False
+drobinson@aprsupply.com,drobinson@aprsupply.com,True
+mott@airhydropower.com,mott@airhydropower.com,True
+tmcguire@airhydropower.com,tmcguire@airhydropower.com,True
+carmelo.carrubba@becn.com,ccarrubba@beaconroofingsupply.com,False
+jfrancis@beaconroofingsupply.com,jfrancis@beaconroofingsupply.com,True
+birte.vonschwarzenfeld@becn.com,bschwarzenfeld@beaconroofingsupply.com,False
+markbacon@bobbarker.com,mbacon@bobbarker.com,False
+robert@bobbarker.com,rjr@bobbarker.com,False
+nancyjohns@bobbarker.com,njohns@bobbarker.com,False
+mark.jordan@bunzlusa.com,mjordan@bunzlusa.com,False
+jim.mccool@bunzlusa.com,jmccool@bunzlusa.com,False
+joao.ricciarelli@canadianbearings.com,jricciarelli@canadianbearings.com,False
+tim.rash@colonyhardware.com,trash@colonyhardware.com,False
+robbiethompson@conklinmetal.com,rthompson@conklinmetal.com,False
+wcooper@easternmetal.com,wcooper@easternmetal.com,True

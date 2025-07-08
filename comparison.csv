@@ -1,0 +1,71 @@
+correct_email,predicted_email,match
+jasont@2jsupply.com,jason.trimbach@2jsupply.com,False
+drobinson@aprsupply.com,david.robinson@aprsupply.com,False
+mott@airhydropower.com,mott@airhydropower.com,True
+tmcguire@airhydropower.com,tmcguire@airhydropower.com,True
+carmelo.carrubba@becn.com,carmelo.carrubba@becn.com,True
+jfrancis@beaconroofingsupply.com,julian.g. francis@becn.com,False
+birte.vonschwarzenfeld@becn.com,birte.von schwarzenfeld@becn.com,False
+markbacon@bobbarker.com,mark.bacon@bobbarker.com,False
+robert@bobbarker.com,robert.barker jr.@bobbarker.com,False
+nancyjohns@bobbarker.com,nancy.barker johns@bobbarker.com,False
+mark.jordan@bunzlusa.com,mark.jordan@bunzldistribution.com,False
+jim.mccool@bunzlusa.com,jim.mccool@bunzldistribution.com,False
+joao.ricciarelli@canadianbearings.com,joao.ricciarelli@canadianbearings.com,True
+tim.rash@colonyhardware.com,trash@colonyhardware.com,False
+robbiethompson@conklinmetal.com,robbie.thompson@conklinmetal.com,False
+wcooper@easternmetal.com,william.cooper@easternmetal.com,False
+wfigueras@easternmetal.com,wilfredo.figueras@easternmetal.com,False
+mswedick@easternmetal.com,mike.swedick@easternmetal.com,False
+eellsworth@ellsworth.com,eellsworth@ellsworth.com,True
+michael.knight@endries.com,michael.knight@endries.com,True
+dyork@ewingoutdoorsupply.com,douglas.w. york@ewingoutdoorsupply.com,False
+sdepuy@1supply.com,seth.depuy@firstsupply.com,False
+kpoehling@deloitte.com,katie.poehling seymour@firstsupply.com,False
+david.bender@graybar.com,david.bender@graybar.com,True
+brian.delaney@graybar.com,brian.delaney@graybar.com,True
+bill.mansfield@graybar.com,bill.p. mansfield@graybar.com,False
+kathy.mazzarella@graybar.com,kathleen.m. mazzarella@graybar.com,False
+ellen.rebne@graybar.com,ellen.s. rebne@graybar.com,False
+travis.hendren@gms.com,thendren@gms.com,False
+eric.sundby@gms.com,esundby@gms.com,False
+alex.averitt@heritagedistribution.com,aaveritt@heritagedistribution.com,False
+doug.cahill@hillmangroup.com,doug.cahill@hillmangroup.com,True
+ljennings@hydradynellc.com,lon.jennings@hydradynellc.com,False
+jkaas@ifpusa.com,jkaas@ifpusa.com,True
+gkuhlman@ifpusa.com,gkuhlman@ifpusa.com,True
+estriegel@ifpusa.com,estriegel@ifpusa.com,True
+bfloreth@ilmoproducts.com,brad.floreth@ilmoproducts.com,False
+theimsr@icbakers.com,ted.heim sr.@icbakers.com,False
+theimjr@icbakers.com,ted.heim jr.@icbakers.com,False
+pkenny@kennypipe.com,pkenny@kennypipe.com,True
+jeggleton@kirbyrisk.com,john.eggleton@kirbyrisk.com,False
+jhart@kirbyrisk.com,joe.hart@kirbyrisk.com,False
+jherring@lockesupply.com,jerry.herring@lockesupply.com,False
+mpaciga@lockesupply.com,michael.paciga@lockesupply.com,False
+smcdaniel@martinsupply.com,smcdaniel@martinsupply.com,True
+druggles@martinsupply.com,druggles and douglas ruggles@martinsupply.com,False
+melissa@mgxbeverage.com,melissa.gordon@mgxbeverage.com,False
+chale@mceautomation.com,charles.hale@mceautomation.com,False
+mburnett@mceautomation.com,michelle.burnett@mceautomation.com,False
+jcassidy@omnicable.com,john.cassidy@omnicable.com,False
+sdeshpande@omnicable.com,shilpa.deshpande@omnicable.com,False
+khubbard@pacesupply.com,keith.hubbard@pacesupply.com,False
+kwalker@parksite.com,kendall.walker@parksite.com,False
+peter.wilson@reece.com.au,peter.wilson@reece.com,False
+mark.wardley@reece.com,mark.wardley@reece.com,True
+rgallagher@rocketindustrial.com,ryan.gallagher@rocketindustrial.com,False
+douglas.moody@rsgroup.com,douglas.moody@us.rs-online.com,False
+cgerhard@specialtybuildingproducts.com,christopher.gerhard@specialtybuildingproducts.com,False
+jeffmclendon@specialtybuildingproducts.com,jeff.mclendon@specialtybuildingproducts.com,False
+wweber@spscompanies.com,william.weber@spscompanies.com,False
+rahul_mehta@tachen.com,rmehta@tachen.com,False
+bill.eismont@uline.com,bill.eismont@uline.com,True
+rplekker@uline.com,randall.plekker@uline.com,False
+abuonocore@unitedelectric.com,anthony.buonocore@unitedelectric.com,False
+gvorwick@unitedelectric.com,george.vorwick@unitedelectric.com,False
+cperry@vamac.com,chris.perry@vamac.com,False
+dpopek@vamac.com,david.popek@vamac.com,False
+roger.raley@waldom.com,roger.raley@waldom.com,True
+drew.love@wiremasters.com,drew.love@wiremasters.com,True
+sandy.mattinson@zoro.com,sandy.mattinson@zoro.com,True
